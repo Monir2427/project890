@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pule_lapkin</title>
+    <!---Goool font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!---Fonawsom icon link-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/css/uikit.min.css" />
+    <!---Css file-->
+    <link rel="stylesheet" href="resurcess/css/style.css">
+    <link rel="stylesheet" href="resurcess/css/queries.css">
+</head>
+<body>
+    <!---start header section--->
+
+    <header class="hero" id="hero">
+        <nav class="header-content" uk-sticky="top: 100; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
+            <div class="logo-area" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                <img src="resurcess/img/planet-logo.png" alt="">
+            </div>
+            <div class="manu-area " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                <a href="javascript:void(0)" onclick="openManu()">
+                    <i class="fas fa-2x fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+
+        <div class="manu-container" id="hambargur">
+            <div class="close-btn">
+                <a href="javascript:void(0)" onclick="closManu()"><i class="far fa-window-close"></i></a>
+            </div>
+            <ul class="hb-manu">
+                <li><a href="#hero" onclick="closManu()">Home</a></li>
+                <li><a href="#about" onclick="closManu()">About</a></li>
+                <li><a href="#process" onclick="closManu()">process</a></li>
+                <li><a href="#expariance" onclick="closManu()">expariance</a></li>
+                <li><a href="#contact" onclick="closManu()">contact</a></li>
+                <li><a href="#work" onclick="closManu()">work</a></li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <div class="header-title">
+                <h1 class="title" uk-scrollspy="cls: uk-animation-scale-down; repeat: true">wlcome to my site</h1>
+                <span class="sub-title">#User Experience #Music #Creative Direction</span>
+            </div>          
+            <div class="scrol-down">
+                <a href="#"><i class="fas down-icon fa-arrow-down"></i></a>
+            </div>
+        </div>
+        <div id="particles-js"></div>
+    </header>
+
+    <!---end header section--->
+
+    <!---Star about section--->
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="grid-item1 " uk-scrollspy="cls: uk-animation-scale-down; repeat: true">
+                    <img src="resurcess/img/paul.jpg" alt="">
+                </div>
+                <div class="grid-item2">
+                    <h3 class="about-title " uk-scrollspy="cls: uk-animation-slide-right; repeat: true">Hi, i'm Paul Lapkin, Experience crafter from Canada.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.</p>
+                    <p>Duis autem vel eum iriure dolorin hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore.</p>
+                    
+                    <button class="uk-button uk-button-default " uk-scrollspy="cls: uk-animation-scale-down; repeat: true" uk-tooltip="title: You can hire me if you want, because i have 5 years experience on wordpress, my experience is html, css, jquery, javascript, php sass, nodjs and others. I always try to satisfy my client and that through work; pos: left"><a href="#" class="btn btn-no1">hire me</a></button>
+                    
+                </div> 
+            </div>
+        </div>
+        
+    </section>
+    
+    <!---End about section--->
+
+    <!---Start process section--->
+
+    <section class="process" id="process">
+        <div class="container">
+            <div class="section-title">
+
+             <h2 class="prcs-title " uk-scrollspy="cls: uk-animation-scale-up; repeat: true">My working process</h2>
+
+                <p>Hi i'm paul lapkin, Experience crafter from Canada</p>
+            </div>
+            <div class="process-grid">
+                <div class="process-grid-item " uk-scrollspy="cls: uk-animation-scale-up; repeat: true">
+                    <i class="fas fa-icon fa-desktop"></i>
+                    <h4 class="icon-desc">Design</h4>
+                </div>
+                <div class="process-grid-item " uk-scrollspy="cls: uk-animation-scale-down; repeat: true">
+                    <i class="fas fa-icon fa-plane"></i>
+                    <h4 class="icon-desc">Design</h4>
+                </div>
+
+                <div class="process-grid-item">
+                    <i class="fas fa-icon fa-bullhorn " uk-scrollspy="cls: uk-animation-shake; repeat: true"></i>
+                    <h4 class="icon-desc">Design</h4>
+                </div>
+
+                <div class="process-grid-item">
+                    <i class="fas fa-icon fa-address-card " uk-scrollspy="cls: uk-animation-scale-down; repeat: true"></i>
+                    <h4 class="icon-desc">Design</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---End process section--->
+
+    <!---start Expariance section--->
+
+    <section class="expariance" id="expariance">
+        <div class="container">
+            <div class="exp-grid " uk-scrollspy="cls: uk-animation-scale-up; repeat: true">
+                <div class="exp-grid-item " uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true">
+                    <h3>work experience</h3>
+                    <h5>Made Ma Design</h5>
+                    <p class="date">OCT 2013- june 2014</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium consequuntur rerum eius, nulla suscipit harum in asperiores.</p>
+                    <hr>
+                    <h5>Crazy Design</h5>
+                    <p class="date">OCT 2013- june 2014</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium consequuntur rerum eius, nulla suscipit harum in asperiores.</p>
+                </div>
+
+                    <div class="exp-grid-item " uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: true">
+                        <h3>Education</h3>
+                        <h5>Goshairhut University</h5>
+                        <p class="date">OCT 2013- june 2014</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium consequuntur rerum eius, nulla suscipit harum in asperiores.</p>
+                        <hr>
+                        <h5>web Design</h5>
+                        <p class="date">OCT 2013- june 2014</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium consequuntur rerum eius, nulla suscipit harum in asperiores.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---End Expariance section--->
+
+    <!---Start work section--->
+
+    <section class="work" id="work">
+        <div class="container">
+            <div class="section-title">
+                <h2 uk-scrollspy="cls: uk-animation-shake; repeat: true">My Latest Works</h2>
+                <p>Hi i'm paul Lapkin, Experience crafter from Canada</p>
+            </div>
+                <div class="worke-filter">
+                    <button type="button" data-filter="all">all</button>
+                    <button type="button" data-filter=".web-design">web design</button>
+                    <button type="button" data-filter=".wb-devlopment">web development</button>
+                    <button type="button" data-filter=".wp">wordpress</button>
+                </div>
+                <div class="work-grid" uk-lightbox>
+                  <div class="work-grid-item mix " uk-scrollspy="cls: uk-animation-slide-left ; repeat: true">
+                      <a href="resurcess/img/mpik1.jpg">
+                          <img src="resurcess/img/mpik1.jpg" alt="work">
+                      </a>
+                  </div>
+                  <div class="work-grid-item mix wb-devlopment" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                    <a href="resurcess/img/mpik2.jpg">
+                        <img src="resurcess/img/mpik2.jpg" alt="work">
+                    </a>
+                </div>
+                <div class="work-grid-item mix wb-devlopment" uk-scrollspy="cls: uk-animation-slide-top ; repeat: true">
+                    <a href="resurcess/img/mpik3.jpg">
+                        <img src="resurcess/img/mpik3.jpg" alt="work">
+                    </a>
+                </div>
+                <div class="work-grid-item mix wp" uk-scrollspy="cls: uk-animation-slide-bottom ; repeat: true">
+                    <a href="resurcess/img/mpik4.jpg">
+                        <img src="resurcess/img/mpik4.jpg" alt="work">
+                    </a>
+                </div>
+                <div class="work-grid-item mix web-design" uk-scrollspy="cls: uk-animation-slide-bottom ; repeat: true">
+                    <a href="resurcess/img/mpik6.jpg">
+                        <img src="resurcess/img/mpik6.jpg" alt="work">
+                    </a>
+                </div>
+                <div class="work-grid-item mix wp" uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
+                    <a href="resurcess/img/mpik5.jpg">
+                        <img src="resurcess/img/mpik5.jpg" alt="work">
+                    </a>
+                </div>
+                <div class="work-grid-item mix web-desogm" uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
+                    <a href="resurcess/img/mpik7.jpg">
+                        <img src="resurcess/img/mpik7.jpg" alt="work">
+                    </a>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <!---End work section--->
+
+    <!---Start testmonial section--->
+
+        <section class="testmonial">
+            <div class="container">
+                <div class="test-grid">
+                    <div class="test-grid-item">
+                        <img src="resurcess/img/quote.png" alt="qouit">
+                        <p class="test-about">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.
+                        </p>
+                        <img src="resurcess/img/signature.png" alt="signature">
+                        <h6>Deniel Croft</h6>
+                        <span>Creative Designer, Levy</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!---End testmonial section--->
+
+    <!---start contact section--->
+
+    <section class="contact" id="contact">
+    <div class="container">
+        <div class="cont-grid">
+            <div class="cont-grid-item" uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: true">
+                <div class="cont-title">
+                    <h3>LEAVE A MESSAGE</h3>
+                </div>
+                <form action="#" method="POST">
+                    <input type="text" name="neme" placeholder="Name*" required>
+                    <input type="email" name="email" placeholder="Email*" required>
+                    <input type="text" name="subject" placeholder="Subject*" required>
+                    <textarea name="text" placeholder="Massage" required></textarea>
+                    <div class="submit-btn">
+                        <input type="submit" value="hire me" class="btn form-submit-btn" uk-scrollspy="cls: uk-animation-scale-up; repeat: true">
+                    </div>
+                </form>
+            </div>
+            <div class="cont-grid-item mixt-grid" uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true">
+                <div class="mixt-grid-item">
+                    <h3>Address</h3>
+                    <p>Gulshan Sales Office. SA Tower (Level-5), Plot#1, Road#134, Block SE(A), Gulshan-1, Dhaka 1212.</p>
+                </div>
+                <div class="mixt-grid-item">
+                    <h3>PHONE</h3>
+                    <p class="number">01735631249</p><br>
+                    <p class="number">01845456655</p>
+                </div>
+                <div class="mixt-grid-item">
+                    <h3>ADDRESS</h3>
+                    <p>Gulshan Sales Office. SA Tower (Level-5), Plot#1, Road#134, Block SE(A), Gulshan-1, Dhaka 1212.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+ 
+    <!---End contact section--->
+
+    <!---End contact section--->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="social-icon">
+                <ul>
+                    <li><a href="#"><i class="fab social fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab social fa-instagram-square"></i></a></li>
+                    <li><a href="#"></a><i class="fab social fa-google-plus-g"></i></li>
+                    <li><a href="#"></a><i class="fab social fa-youtube"></i></li>
+                </ul>
+                <div class="copyright">
+                    copyright:&copy; <u class="owiner"><b>Monir</b></u> All rights reserved.2021
+                </div>
+                <div class="scrol-up">
+                    <a href="#" uk-totop uk-scroll></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!---End contact section--->
+
+
+    <!---jeqary-->
+    <script href="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- UIkit JS -->  
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit-icons.min.js"></script>
+     <!---partical js-->
+     <script src="vendors/js file/particles.min.js"></script>
+     <script src="vendors/js file/app.js"></script>
+     <script src="vendors/js file/mixitup.min.js"></script>   
+    <!--main js -->
+    <script src="vendors/js file/main.js"></script>
+
+
+</body>
+</html>
